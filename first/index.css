@@ -1,0 +1,45 @@
+
+.body{
+    background-color: #D7D7D7;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.topbar {
+    height: 156px;
+    background-color: #434343;
+    width: 100%;
+    /* position: absolute; */
+    top: 0px;
+}
+
+.main-content {
+    /* margin-top: 150px; */
+    height:100%;
+    background-color: #EEEEEE;
+}
+
+.middle-box {
+    display: flex;
+    width: 50vw;
+    height: calc(100vh - 156px);
+    flex-direction: column;
+}
+
+.footer {
+    align-self: bottom;
+    height: 80px;
+    width: 100%;
+    background-color: #212121;
+}
+
+.sidebar {
+    background-color: #D7D7D7;
+    width: 25%;
+    height: 100%;
+}
